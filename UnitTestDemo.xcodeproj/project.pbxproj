@@ -17,6 +17,7 @@
 		5CA5BFE31BBBBB04002FD185 /* UnitTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5BFE21BBBBB04002FD185 /* UnitTestDemoUITests.m */; };
 		5CA5BFFF1BBBBD4B002FD185 /* SenTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5BFFE1BBBBD4B002FD185 /* SenTestClass.m */; settings = {ASSET_TAGS = (); }; };
 		5CA5C05E1BBBDBC6002FD185 /* SendClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5C05D1BBBDBC6002FD185 /* SendClass.m */; settings = {ASSET_TAGS = (); }; };
+		5CCBFDA21BC6198B001EF332 /* NewTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCBFDA11BC6198B001EF332 /* NewTestClass.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		5CA5BFFE1BBBBD4B002FD185 /* SenTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SenTestClass.m; sourceTree = "<group>"; };
 		5CA5C05C1BBBDBC6002FD185 /* SendClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendClass.h; sourceTree = "<group>"; };
 		5CA5C05D1BBBDBC6002FD185 /* SendClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendClass.m; sourceTree = "<group>"; };
+		5CCBFDA11BC6198B001EF332 /* NewTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				5CA5BFFE1BBBBD4B002FD185 /* SenTestClass.m */,
+				5CCBFDA11BC6198B001EF332 /* NewTestClass.m */,
 				5CA5BFBC1BBBBB04002FD185 /* UnitTestDemo */,
 				5CA5BFD61BBBBB04002FD185 /* UnitTestDemoTests */,
 				5CA5BFE11BBBBB04002FD185 /* UnitTestDemoUITests */,
@@ -301,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CCBFDA21BC6198B001EF332 /* NewTestClass.m in Sources */,
 				5CA5BFD81BBBBB04002FD185 /* UnitTestDemoTests.m in Sources */,
 				5CA5BFFF1BBBBD4B002FD185 /* SenTestClass.m in Sources */,
 			);
