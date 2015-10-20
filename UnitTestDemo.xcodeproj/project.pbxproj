@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C6B06541BCB598900DC7894 /* UnitTestDemoTests111.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6B06531BCB598900DC7894 /* UnitTestDemoTests111.m */; };
 		5CA5BFBF1BBBBB04002FD185 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5BFBE1BBBBB04002FD185 /* main.m */; };
 		5CA5BFC21BBBBB04002FD185 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5BFC11BBBBB04002FD185 /* AppDelegate.m */; };
 		5CA5BFC51BBBBB04002FD185 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5BFC41BBBBB04002FD185 /* ViewController.m */; };
@@ -21,6 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5C6B06561BCB598900DC7894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CA5BFB21BBBBB04002FD185 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CA5BFB91BBBBB04002FD185;
+			remoteInfo = UnitTestDemo;
+		};
 		5CA5BFD41BBBBB04002FD185 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5CA5BFB21BBBBB04002FD185 /* Project object */;
@@ -38,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C6B06511BCB598900DC7894 /* UnitTestDemoTests111.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestDemoTests111.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6B06531BCB598900DC7894 /* UnitTestDemoTests111.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitTestDemoTests111.m; sourceTree = "<group>"; };
+		5C6B06551BCB598900DC7894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CA5BFBA1BBBBB04002FD185 /* UnitTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA5BFBE1BBBBB04002FD185 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5CA5BFC01BBBBB04002FD185 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +74,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5C6B064E1BCB598900DC7894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5CA5BFB71BBBBB04002FD185 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -87,6 +105,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C6B06521BCB598900DC7894 /* UnitTestDemoTests111 */ = {
+			isa = PBXGroup;
+			children = (
+				5C6B06531BCB598900DC7894 /* UnitTestDemoTests111.m */,
+				5C6B06551BCB598900DC7894 /* Info.plist */,
+			);
+			path = UnitTestDemoTests111;
+			sourceTree = "<group>";
+		};
 		5CA5BFB11BBBBB04002FD185 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +123,7 @@
 				5CA5BFD61BBBBB04002FD185 /* UnitTestDemoTests */,
 				5CA5BFE11BBBBB04002FD185 /* UnitTestDemoUITests */,
 				5CA5BFF51BBBBBBF002FD185 /* UnitTestDemoTestss */,
+				5C6B06521BCB598900DC7894 /* UnitTestDemoTests111 */,
 				5CA5BFBB1BBBBB04002FD185 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,6 +134,7 @@
 				5CA5BFBA1BBBBB04002FD185 /* UnitTestDemo.app */,
 				5CA5BFD31BBBBB04002FD185 /* UnitTestDemoTests.xctest */,
 				5CA5BFDE1BBBBB04002FD185 /* UnitTestDemoUITests.xctest */,
+				5C6B06511BCB598900DC7894 /* UnitTestDemoTests111.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -166,6 +195,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5C6B06501BCB598900DC7894 /* UnitTestDemoTests111 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C6B065A1BCB598900DC7894 /* Build configuration list for PBXNativeTarget "UnitTestDemoTests111" */;
+			buildPhases = (
+				5C6B064D1BCB598900DC7894 /* Sources */,
+				5C6B064E1BCB598900DC7894 /* Frameworks */,
+				5C6B064F1BCB598900DC7894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C6B06571BCB598900DC7894 /* PBXTargetDependency */,
+			);
+			name = UnitTestDemoTests111;
+			productName = UnitTestDemoTests111;
+			productReference = 5C6B06511BCB598900DC7894 /* UnitTestDemoTests111.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		5CA5BFB91BBBBB04002FD185 /* UnitTestDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CA5BFE71BBBBB04002FD185 /* Build configuration list for PBXNativeTarget "UnitTestDemo" */;
@@ -228,6 +275,10 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = wsc;
 				TargetAttributes = {
+					5C6B06501BCB598900DC7894 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 5CA5BFB91BBBBB04002FD185;
+					};
 					5CA5BFB91BBBBB04002FD185 = {
 						CreatedOnToolsVersion = 7.0.1;
 					};
@@ -257,11 +308,19 @@
 				5CA5BFB91BBBBB04002FD185 /* UnitTestDemo */,
 				5CA5BFD21BBBBB04002FD185 /* UnitTestDemoTests */,
 				5CA5BFDD1BBBBB04002FD185 /* UnitTestDemoUITests */,
+				5C6B06501BCB598900DC7894 /* UnitTestDemoTests111 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5C6B064F1BCB598900DC7894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5CA5BFB81BBBBB04002FD185 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -289,6 +348,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5C6B064D1BCB598900DC7894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6B06541BCB598900DC7894 /* UnitTestDemoTests111.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5CA5BFB61BBBBB04002FD185 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -321,6 +388,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		5C6B06571BCB598900DC7894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CA5BFB91BBBBB04002FD185 /* UnitTestDemo */;
+			targetProxy = 5C6B06561BCB598900DC7894 /* PBXContainerItemProxy */;
+		};
 		5CA5BFD51BBBBB04002FD185 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5CA5BFB91BBBBB04002FD185 /* UnitTestDemo */;
@@ -353,6 +425,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5C6B06581BCB598900DC7894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UnitTestDemoTests111/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = testdemo.UnitTestDemoTests111;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnitTestDemo.app/UnitTestDemo";
+			};
+			name = Debug;
+		};
+		5C6B06591BCB598900DC7894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UnitTestDemoTests111/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = testdemo.UnitTestDemoTests111;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnitTestDemo.app/UnitTestDemo";
+			};
+			name = Release;
+		};
 		5CA5BFE51BBBBB04002FD185 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -518,6 +616,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5C6B065A1BCB598900DC7894 /* Build configuration list for PBXNativeTarget "UnitTestDemoTests111" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6B06581BCB598900DC7894 /* Debug */,
+				5C6B06591BCB598900DC7894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		5CA5BFB51BBBBB04002FD185 /* Build configuration list for PBXProject "UnitTestDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

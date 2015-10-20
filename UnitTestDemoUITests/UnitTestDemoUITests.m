@@ -37,4 +37,14 @@
     // Use XCTAssert and related functions to verify your tests produce the correct results.
 }
 
+- (void)testOne {
+    NSString *string1 = @"test";
+    NSString *string2 = @"test";
+    if ([string1 isEqualToString:string2]) {
+        NSLog(@"1 ture");
+    }else{
+        NSLog(@"1 fail");
+    }
+}
+
 @end
